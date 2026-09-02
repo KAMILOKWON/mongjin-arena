@@ -1,0 +1,11 @@
+{
+  "provider": "gemini",
+  "requestedModel": "Gemini 3.1 Pro",
+  "transport": "gemini.google.com subscription UI",
+  "startedAt": "2026-09-02T08:33:26.097Z",
+  "durationMs": 16136,
+  "exitCode": 0,
+  "timedOut": false,
+  "promptFile": "prompt.md",
+  "responseSchemaFile": "response.schema.json"
+}

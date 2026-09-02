@@ -1,0 +1,14 @@
+{
+  "provider": "gemini",
+  "requestedModel": "Gemini 3.1 Pro",
+  "legal": true,
+  "durationMs": 16136,
+  "move": {
+    "kind": "PLACE",
+    "to": { "r": 7, "c": 4 }
+  },
+  "moveIndex": 0,
+  "reasoningSummaryKo": "왕이 단독으로 전진하는 것은 방어막이 없어 상대에게 포위당하기 쉽고 매우 위험합니다. 따라서 첫 턴에는 왕 앞에 호위를 배치하여 방어선을 구축하고, 향후 호위 배치를 넓혀갈 교두보를 마련하는 것이 전략적으로 가장 안정적입니다.",
+  "strategicIdea": "guard-development",
+  "confidence": 0.95
+}

@@ -1,0 +1,11 @@
+{
+  "provider": "grok",
+  "requestedModel": "Expert mode (web UI does not expose a model ID)",
+  "transport": "grok.com subscription UI",
+  "startedAt": "2026-09-02T08:36:15.961Z",
+  "durationMs": 44976,
+  "exitCode": 0,
+  "timedOut": false,
+  "promptFile": "prompt.md",
+  "responseSchemaFile": "response.schema.json"
+}

@@ -2,6 +2,8 @@ node_modules/
 dist/
 results/
 outputs/
+experiments/**/raw/**/stdout.txt
+experiments/**/raw/**/stderr.txt
 .DS_Store
 *.log
 __pycache__/

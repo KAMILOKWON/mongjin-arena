@@ -1,0 +1,12 @@
+{
+  "provider": "kimi",
+  "requestedModel": "kimi-code/k3",
+  "startedAt": "2026-09-02T08:26:52.421Z",
+  "durationMs": 14964.170875,
+  "exitCode": 0,
+  "signal": null,
+  "timedOut": false,
+  "executable": "kimi",
+  "promptFile": "prompt.md",
+  "responseSchemaFile": "response.schema.json"
+}

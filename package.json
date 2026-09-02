@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "verify:product": "tsx scripts/verify-product-equivalence.ts",
+    "experiment:first-move": "tsx scripts/run-subscription-first-move.ts",
     "arena": "tsx src/cli/arena.ts",
     "match": "tsx src/cli/match.ts"
   },

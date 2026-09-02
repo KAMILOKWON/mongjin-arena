@@ -1,0 +1,84 @@
+{
+  "experimentId": "exp-002-four-model-first-move",
+  "status": "complete",
+  "completedProviders": [
+    "gemini",
+    "codex",
+    "kimi",
+    "grok"
+  ],
+  "legalMoveCount": 4,
+  "providerCount": 4,
+  "legalMoveRate": 1,
+  "unanimousMoveIndex": 0,
+  "results": [
+    {
+      "provider": "gemini",
+      "requestedModel": "Gemini 3.1 Pro",
+      "legal": true,
+      "durationMs": 16136,
+      "move": {
+        "kind": "PLACE",
+        "to": {
+          "r": 7,
+          "c": 4
+        }
+      },
+      "moveIndex": 0,
+      "reasoningSummaryKo": "왕이 단독으로 전진하는 것은 방어막이 없어 상대에게 포위당하기 쉽고 매우 위험합니다. 따라서 첫 턴에는 왕 앞에 호위를 배치하여 방어선을 구축하고, 향후 호위 배치를 넓혀갈 교두보를 마련하는 것이 전략적으로 가장 안정적입니다.",
+      "strategicIdea": "guard-development",
+      "confidence": 0.95
+    },
+    {
+      "provider": "codex",
+      "requestedModel": "gpt-5.6-sol",
+      "legal": true,
+      "durationMs": 7967.588792,
+      "move": {
+        "kind": "PLACE",
+        "to": {
+          "r": 7,
+          "c": 4
+        }
+      },
+      "moveIndex": 0,
+      "reasoningSummaryKo": "왕을 성급히 노출하지 않으면서 전방에 호위를 전개해 중앙 진로와 다음 배치 거점을 동시에 확보하는 수가 가장 안정적이다. 이후 왕의 전진과 측면 확장 모두를 유연하게 지원한다.",
+      "strategicIdea": "guard-development",
+      "confidence": 0.68
+    },
+    {
+      "provider": "kimi",
+      "requestedModel": "kimi-code/k3",
+      "legal": true,
+      "durationMs": 14964.170875,
+      "move": {
+        "kind": "PLACE",
+        "to": {
+          "r": 7,
+          "c": 4
+        }
+      },
+      "moveIndex": 0,
+      "reasoningSummaryKo": "첫 수에 호위를 왕 바로 앞 (7,4)에 배치하면 왕의 중앙 진격 경로를 열어 두면서 전열을 미리 구축할 수 있고, 이후 이 호위로 상대 호위를 제압하거나 왕의 호위막 역할을 시킬 수 있다. 왕을 즉시 전진시키는 것보다 호위부터 전개하는 편이 경주 상황에서 한 수 뒤처지더라도 포위·포획 위협에 대한 안정성이 높다고 판단한다.",
+      "strategicIdea": "guard-development",
+      "confidence": 0.55
+    },
+    {
+      "provider": "grok",
+      "requestedModel": "Expert mode (web UI does not expose a model ID)",
+      "legal": true,
+      "durationMs": 44976,
+      "move": {
+        "kind": "PLACE",
+        "to": {
+          "r": 7,
+          "c": 4
+        }
+      },
+      "moveIndex": 0,
+      "reasoningSummaryKo": "왕이 호위 없이 먼저 전진하거나 옆으로 빠지면 초반부터 노출되고 전개 거점이 약해진다. 정면(7,4)에 호위를 두는 것이 이후 상하좌우 배치를 넓히기 가장 안정적이다.",
+      "strategicIdea": "guard-development",
+      "confidence": 0.74
+    }
+  ]
+}

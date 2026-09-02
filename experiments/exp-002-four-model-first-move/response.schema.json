@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["moveIndex", "reasoningSummaryKo", "strategicIdea", "confidence"],
+  "properties": {
+    "moveIndex": { "type": "integer", "minimum": 0, "maximum": 5 },
+    "reasoningSummaryKo": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "strategicIdea": {
+      "enum": ["guard-development", "king-advance", "king-side-step", "other"]
+    },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+  }
+}

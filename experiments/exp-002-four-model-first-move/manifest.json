@@ -1,0 +1,28 @@
+{
+  "experimentId": "exp-002-four-model-first-move",
+  "contentId": "content-001-four-model-first-move",
+  "tier": "devlog",
+  "status": "complete",
+  "question": "Can four subscription agents choose one legal opening move in Mongjin from identical rules and state?",
+  "ruleset": "mongjin-standard-1.0",
+  "protocol": "mongjin-arena-jsonl-1",
+  "positionFile": "position.json",
+  "promptFile": "prompt.md",
+  "responseSchemaFile": "response.schema.json",
+  "providers": [
+    { "id": "gemini", "model": "Gemini 3.1 Pro", "transport": "gemini.google.com subscription UI" },
+    { "id": "codex", "model": "gpt-5.6-sol", "transport": "codex-cli@0.144.6 with ChatGPT login" },
+    { "id": "kimi", "model": "kimi-code/k3", "transport": "kimi-code@0.39.1 OAuth" },
+    { "id": "grok", "model": "Expert mode (web UI does not expose a model ID)", "transport": "grok.com subscription UI" }
+  ],
+  "sampleCountPerProvider": 1,
+  "retryPolicy": "No strategic retries; one retry only for transport or authentication repair.",
+  "toolsAllowed": false,
+  "primaryMetric": "legal_move_rate",
+  "limitations": [
+    "One position and one sample cannot establish relative model strength.",
+    "Subscription products expose different and partly uncontrollable sampling settings.",
+    "Gemini and Grok use web subscription UIs while Codex and Kimi use subscription-authenticated CLIs.",
+    "Latency is observed wall time and includes UI or CLI startup plus provider network time."
+  ]
+}
