@@ -1,0 +1,15 @@
+{
+  "experimentId": "exp-001-arena-smoke",
+  "question": "Does the headless arena finish legal color-swapped baseline games reproducibly?",
+  "ruleset": "mongjin-standard-1.0",
+  "agentA": "random",
+  "agentB": "greedy",
+  "games": 4,
+  "pairs": 2,
+  "seed": 20260902,
+  "openingPlies": 4,
+  "colorSwap": true,
+  "moveTimeoutMs": 5000,
+  "maxPlies": 240,
+  "primaryMetric": "valid_completion_rate"
+}

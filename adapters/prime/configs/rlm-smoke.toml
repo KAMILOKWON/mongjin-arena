@@ -1,0 +1,16 @@
+num_tasks = 1
+num_rollouts = 1
+max_turns = 80
+
+[sampling]
+temperature = 0.2
+
+[env.taskset]
+id = "mongjin-v1"
+
+[env.agent.harness]
+id = "rlm"
+max_depth = 1
+
+[env.agent.runtime]
+type = "docker"

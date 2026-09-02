@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mongjin.game/schemas/ruleset.schema.json",
+  "title": "Mongjin Ruleset",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "rulesetId",
+    "displayName",
+    "boardSize",
+    "guardCount",
+    "goalCells",
+    "placement",
+    "guardMove",
+    "kingSurroundLoss",
+    "noGuardOnGoal",
+    "kingCapture",
+    "startingPlayer",
+    "information",
+    "stochastic"
+  ],
+  "properties": {
+    "rulesetId": { "const": "mongjin-standard-1.0" },
+    "displayName": { "type": "string" },
+    "boardSize": { "const": 9 },
+    "guardCount": { "const": 8 },
+    "goalCells": { "const": "center-3" },
+    "placement": { "const": "adjacent" },
+    "guardMove": { "const": "step" },
+    "kingSurroundLoss": { "const": true },
+    "noGuardOnGoal": { "const": true },
+    "kingCapture": { "const": true },
+    "startingPlayer": { "const": "BLACK" },
+    "information": { "const": "perfect" },
+    "stochastic": { "const": false }
+  }
+}

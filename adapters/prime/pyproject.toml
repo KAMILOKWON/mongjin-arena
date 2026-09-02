@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mongjin-v1"
+version = "0.1.0"
+description = "Mongjin agent taskset for Prime Intellect Verifiers v1"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = { text = "MIT" }
+dependencies = [
+  "pydantic>=2.12.3",
+  "verifiers"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["mongjin_v1"]
