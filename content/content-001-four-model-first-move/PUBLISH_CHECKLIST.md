@@ -12,6 +12,7 @@
 - [x] Claude exclusion is attributed to budget and no subscription
 - [x] Korean copy uses polite speech
 - [x] No audience poll or response-dependent CTA remains
+- [x] Result image uses the Studio ZZG site palette
 - [x] Git commit permalink is added
 - [ ] Korean master post published
 - [ ] English GitHub note published

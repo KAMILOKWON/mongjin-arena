@@ -8,6 +8,7 @@
 - Audience: AI agent/eval builders, indie game developers, abstract strategy players
 - One metric: legal opening move rate
 - One visual: four model cards around the 9×9 opening board
+- Visual palette: Studio ZZG forest, vanilla, chestnut, and gold
 - Primary format: Korean development blog post plus 60–90 second video
 - Secondary formats: English GitHub note, X thread, GeekNews/Disquiet summary
 - Next step: 자동화 경로가 안정적인 Codex부터 Greedy 기준 봇과 완주 대국

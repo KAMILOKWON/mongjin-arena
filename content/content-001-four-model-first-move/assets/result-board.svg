@@ -1,62 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">네 AI의 몽진 첫 수 실험 결과</title>
   <desc id="desc">Gemini, Codex, Kimi K3, Grok이 모두 흑 왕 앞 7행 4열에 호위를 배치했습니다.</desc>
-  <rect width="1600" height="900" fill="#0b1020"/>
-  <text x="80" y="78" fill="#f7f4ea" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="44" font-weight="700">네 AI는 몽진의 첫 수로 무엇을 골랐을까요?</text>
-  <text x="80" y="122" fill="#9ba8c7" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="22">왕을 호위해 반대편 목표로 보내는 9×9 추상전략게임 · 모델당 1회 · 외부 도구 없음</text>
+  <rect width="1600" height="900" fill="#173824"/>
+  <text x="80" y="78" fill="#fbf8f0" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="44" font-weight="700">네 AI는 몽진의 첫 수로 무엇을 골랐을까요?</text>
+  <text x="80" y="122" fill="#d7c9ad" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="22">왕을 호위해 반대편 목표로 보내는 9×9 추상전략게임 · 모델당 1회 · 외부 도구 없음</text>
 
   <g transform="translate(80 160)">
-    <rect width="630" height="630" rx="12" fill="#d9c9a3"/>
-    <g stroke="#5a4936" stroke-width="2">
+    <rect width="630" height="630" rx="12" fill="#eee4d1"/>
+    <g stroke="#6d4b34" stroke-width="2">
       <path d="M70 0V630M140 0V630M210 0V630M280 0V630M350 0V630M420 0V630M490 0V630M560 0V630"/>
       <path d="M0 70H630M0 140H630M0 210H630M0 280H630M0 350H630M0 420H630M0 490H630M0 560H630"/>
     </g>
-    <rect x="282" y="492" width="66" height="66" rx="12" fill="#35c5a3" stroke="#eafff8" stroke-width="4"/>
-    <text x="315" y="534" text-anchor="middle" fill="#06241e" font-family="Pretendard, sans-serif" font-size="23" font-weight="800">호위</text>
-    <circle cx="315" cy="35" r="25" fill="#f7f4ea" stroke="#1c2335" stroke-width="5"/>
-    <text x="315" y="43" text-anchor="middle" fill="#1c2335" font-family="sans-serif" font-size="22" font-weight="800">W</text>
-    <circle cx="315" cy="595" r="25" fill="#151a28" stroke="#f3b94f" stroke-width="5"/>
-    <text x="315" y="603" text-anchor="middle" fill="#f3b94f" font-family="sans-serif" font-size="22" font-weight="800">B</text>
-    <path d="M315 573V560" stroke="#f3b94f" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="282" y="492" width="66" height="66" rx="12" fill="#315b36" stroke="#fbf8f0" stroke-width="4"/>
+    <text x="315" y="534" text-anchor="middle" fill="#fbf8f0" font-family="Pretendard, sans-serif" font-size="23" font-weight="800">호위</text>
+    <circle cx="315" cy="35" r="25" fill="#fbf8f0" stroke="#173824" stroke-width="5"/>
+    <text x="315" y="43" text-anchor="middle" fill="#173824" font-family="sans-serif" font-size="22" font-weight="800">W</text>
+    <circle cx="315" cy="595" r="25" fill="#173824" stroke="#ccb77e" stroke-width="5"/>
+    <text x="315" y="603" text-anchor="middle" fill="#ccb77e" font-family="sans-serif" font-size="22" font-weight="800">B</text>
+    <path d="M315 573V560" stroke="#ccb77e" stroke-width="5" marker-end="url(#arrow)"/>
   </g>
 
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#f3b94f"/>
+      <path d="M0,0 L8,4 L0,8 Z" fill="#ccb77e"/>
     </marker>
   </defs>
 
   <g font-family="Pretendard, Apple SD Gothic Neo, sans-serif">
-    <text x="790" y="190" fill="#f7f4ea" font-size="30" font-weight="700">4/4 모두 같은 선택</text>
-    <text x="790" y="225" fill="#9ba8c7" font-size="20">PLACE (7,4) · 왕 앞에 첫 호위 배치</text>
+    <text x="790" y="190" fill="#fbf8f0" font-size="30" font-weight="700">4/4 모두 같은 선택</text>
+    <text x="790" y="225" fill="#d7c9ad" font-size="20">PLACE (7,4) · 왕 앞에 첫 호위 배치</text>
 
     <g transform="translate(790 260)">
-      <rect width="730" height="105" rx="16" fill="#151d33" stroke="#2b3859"/>
-      <text x="28" y="43" fill="#f7f4ea" font-size="25" font-weight="700">Gemini 3.1 Pro</text>
-      <text x="28" y="76" fill="#9ba8c7" font-size="19">호위 전개 · confidence 0.95</text>
-      <text x="690" y="63" text-anchor="end" fill="#35c5a3" font-size="22" font-weight="700">합법</text>
+      <rect width="730" height="105" rx="16" fill="#315b36" stroke="#799071"/>
+      <text x="28" y="43" fill="#fbf8f0" font-size="25" font-weight="700">Gemini 3.1 Pro</text>
+      <text x="28" y="76" fill="#d7c9ad" font-size="19">호위 전개 · confidence 0.95</text>
+      <text x="690" y="63" text-anchor="end" fill="#ccb77e" font-size="22" font-weight="700">합법</text>
     </g>
     <g transform="translate(790 385)">
-      <rect width="730" height="105" rx="16" fill="#151d33" stroke="#2b3859"/>
-      <text x="28" y="43" fill="#f7f4ea" font-size="25" font-weight="700">Codex · gpt-5.6-sol</text>
-      <text x="28" y="76" fill="#9ba8c7" font-size="19">호위 전개 · confidence 0.68</text>
-      <text x="690" y="63" text-anchor="end" fill="#35c5a3" font-size="22" font-weight="700">합법</text>
+      <rect width="730" height="105" rx="16" fill="#315b36" stroke="#799071"/>
+      <text x="28" y="43" fill="#fbf8f0" font-size="25" font-weight="700">Codex · gpt-5.6-sol</text>
+      <text x="28" y="76" fill="#d7c9ad" font-size="19">호위 전개 · confidence 0.68</text>
+      <text x="690" y="63" text-anchor="end" fill="#ccb77e" font-size="22" font-weight="700">합법</text>
     </g>
     <g transform="translate(790 510)">
-      <rect width="730" height="105" rx="16" fill="#151d33" stroke="#2b3859"/>
-      <text x="28" y="43" fill="#f7f4ea" font-size="25" font-weight="700">Kimi K3</text>
-      <text x="28" y="76" fill="#9ba8c7" font-size="19">호위 전개 · confidence 0.55</text>
-      <text x="690" y="63" text-anchor="end" fill="#35c5a3" font-size="22" font-weight="700">합법</text>
+      <rect width="730" height="105" rx="16" fill="#315b36" stroke="#799071"/>
+      <text x="28" y="43" fill="#fbf8f0" font-size="25" font-weight="700">Kimi K3</text>
+      <text x="28" y="76" fill="#d7c9ad" font-size="19">호위 전개 · confidence 0.55</text>
+      <text x="690" y="63" text-anchor="end" fill="#ccb77e" font-size="22" font-weight="700">합법</text>
     </g>
     <g transform="translate(790 635)">
-      <rect width="730" height="105" rx="16" fill="#151d33" stroke="#2b3859"/>
-      <text x="28" y="43" fill="#f7f4ea" font-size="25" font-weight="700">Grok · 전문가 모드</text>
-      <text x="28" y="76" fill="#9ba8c7" font-size="19">호위 전개 · confidence 0.74</text>
-      <text x="690" y="63" text-anchor="end" fill="#35c5a3" font-size="22" font-weight="700">합법</text>
+      <rect width="730" height="105" rx="16" fill="#315b36" stroke="#799071"/>
+      <text x="28" y="43" fill="#fbf8f0" font-size="25" font-weight="700">Grok · 전문가 모드</text>
+      <text x="28" y="76" fill="#d7c9ad" font-size="19">호위 전개 · confidence 0.74</text>
+      <text x="690" y="63" text-anchor="end" fill="#ccb77e" font-size="22" font-weight="700">합법</text>
     </g>
   </g>
 
-  <rect x="790" y="770" width="730" height="72" rx="14" fill="#241e2d"/>
-  <text x="815" y="801" fill="#f3b94f" font-family="Pretendard, sans-serif" font-size="18" font-weight="700">해석 주의</text>
-  <text x="815" y="827" fill="#c9bfd0" font-family="Pretendard, sans-serif" font-size="17">한 위치 · 한 번의 관찰이며 모델 순위나 최적 수의 증명이 아닙니다.</text>
+  <rect x="790" y="770" width="730" height="72" rx="14" fill="#6d4b34"/>
+  <text x="815" y="801" fill="#ccb77e" font-family="Pretendard, sans-serif" font-size="18" font-weight="700">해석 주의</text>
+  <text x="815" y="827" fill="#fbf8f0" font-family="Pretendard, sans-serif" font-size="17">한 위치 · 한 번의 관찰이며 모델 순위나 최적 수의 증명이 아닙니다.</text>
 </svg>
