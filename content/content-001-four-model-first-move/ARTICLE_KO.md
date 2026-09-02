@@ -49,4 +49,4 @@
 
 다음에는 독자 투표로 고른 AI에게 Greedy 기준 봇을 상대로 실제 한 판을 끝까지 맡긴다. 첫 수의 합의가 완주 대국의 전략 차이로 이어지는지 확인할 예정이다.
 
-실험 프롬프트, 원문 응답, 파싱 결과는 모두 `mongjin-arena` 공개 저장소에 남긴다.
+[실험 프롬프트, 원문 응답, 정규화 결과](https://github.com/KAMILOKWON/mongjin-arena/tree/69a99eb3568f833086191a94c71e8f7c0faf67d0/experiments/exp-002-four-model-first-move)는 `mongjin-arena` 공개 저장소에 고정해 두었다.

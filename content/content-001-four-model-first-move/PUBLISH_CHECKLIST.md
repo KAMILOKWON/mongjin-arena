@@ -8,7 +8,7 @@
 - [x] No claim uses “best”, “smartest”, or “benchmark winner”
 - [x] One-sample limitation appears in article and video
 - [x] No hidden chain-of-thought is shown
-- [ ] Git commit permalink is added
+- [x] Git commit permalink is added
 - [ ] Korean master post published
 - [ ] English GitHub note published
 - [ ] X/Threads post published

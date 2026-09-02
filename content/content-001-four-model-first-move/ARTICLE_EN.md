@@ -32,8 +32,8 @@ I recorded wall time but do not use it to compare speed. Gemini and Grok ran
 through subscription web interfaces, while Codex and Kimi used
 subscription-authenticated CLIs.
 
-The exact prompt, raw JSON responses, and normalized records are preserved in
-the source experiment.
+The [exact prompt, raw JSON responses, and normalized records](https://github.com/KAMILOKWON/mongjin-arena/tree/69a99eb3568f833086191a94c71e8f7c0faf67d0/experiments/exp-002-four-model-first-move)
+are preserved at an immutable commit.
 
 This is one sample from one position. It tests initial rule comprehension and
 interface reliability; it does not rank general intelligence or Mongjin skill.

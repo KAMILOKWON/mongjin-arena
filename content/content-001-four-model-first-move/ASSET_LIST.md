@@ -8,7 +8,7 @@
 - [ ] 9:16 short-video layout
 - [ ] Korean captions
 - [ ] English captions
-- [ ] GitHub experiment permalink
+- [x] GitHub experiment permalink
 
 Provider logos are optional. Prefer names in neutral typography unless current
 brand-use permission is verified before publication.
