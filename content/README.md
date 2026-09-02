@@ -23,4 +23,4 @@ published until the linked experiment is complete and its raw outputs exist.
 
 | ID | Source experiment | Working title | Status |
 |---|---|---|---|
-| `content-001-four-model-first-move` | `exp-002-four-model-first-move` | 네 AI의 몽진 첫 수 | publication-ready draft |
+| `content-001-four-model-first-move` | `exp-002-four-model-first-move` | 네 AI의 몽진 첫 수 | published on Substack (KO/EN) |

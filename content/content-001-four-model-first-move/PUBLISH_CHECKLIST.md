@@ -16,8 +16,8 @@
 - [x] X and Threads copy stays within the standard post limits
 - [x] Image alternative text is prepared
 - [x] Git commit permalink is added
-- [ ] Korean master post published
-- [ ] English GitHub note published
+- [x] Korean Substack post published and URL recorded
+- [x] English Substack post published and URL recorded
 - [ ] X thread published and URL recorded
 - [ ] Threads post published and URL recorded
 - [ ] 24-hour metrics recorded
