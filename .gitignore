@@ -1,6 +1,7 @@
 node_modules/
 dist/
 results/
+outputs/
 .DS_Store
 *.log
 __pycache__/

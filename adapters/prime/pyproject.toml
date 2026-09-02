@@ -11,7 +11,7 @@ requires-python = ">=3.11,<3.14"
 license = { text = "MIT" }
 dependencies = [
   "pydantic>=2.12.3",
-  "verifiers"
+  "verifiers==0.2.0"
 ]
 
 [tool.hatch.build.targets.wheel]

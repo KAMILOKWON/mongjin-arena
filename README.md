@@ -40,6 +40,13 @@ npm run match -- --black random --white greedy --games 4 --out results/smoke
 The match runner writes a manifest, summary, CSV, JSONL, and one MGN replay per
 game. Generated results are ignored by Git.
 
+Validate the Prime Intellect RLM adapter without calling a model API:
+
+```bash
+uv run --with prime==0.6.31 --with-editable adapters/prime \
+  eval @ adapters/prime/configs/rlm-smoke.toml --dry-run
+```
+
 ## Repository layout
 
 ```text

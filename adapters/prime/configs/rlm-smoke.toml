@@ -5,12 +5,12 @@ max_turns = 80
 [sampling]
 temperature = 0.2
 
-[env.taskset]
+[taskset]
 id = "mongjin-v1"
 
-[env.agent.harness]
+[harness]
 id = "rlm"
 max_depth = 1
 
-[env.agent.runtime]
+[harness.runtime]
 type = "docker"
