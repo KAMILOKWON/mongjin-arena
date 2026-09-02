@@ -75,6 +75,12 @@ The rules engine was extracted from the canonical Mongjin product source at
 version 1.0.8. Future engine updates must change the ruleset version or prove
 behavioral equivalence with the golden tests.
 
+Maintainers with the product repository can run a seeded cross-engine audit:
+
+```bash
+MONGJIN_PRODUCT_ROOT=/path/to/mongjin npm run verify:product
+```
+
 ## License
 
 Source code is MIT licensed. The Mongjin name and visual brand assets are
