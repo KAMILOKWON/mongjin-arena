@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">네 AI의 몽진 첫 수 실험 결과</title>
-  <desc id="desc">Gemini, Codex, Kimi K3, Grok이 모두 흑 왕 앞 7행 4열에 호위를 배치했다.</desc>
+  <desc id="desc">Gemini, Codex, Kimi K3, Grok이 모두 흑 왕 앞 7행 4열에 호위를 배치했습니다.</desc>
   <rect width="1600" height="900" fill="#0b1020"/>
-  <text x="80" y="78" fill="#f7f4ea" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="44" font-weight="700">네 AI는 몽진의 첫 수로 무엇을 골랐을까?</text>
-  <text x="80" y="122" fill="#9ba8c7" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="22">동일 규칙 · 동일 시작 위치 · 모델당 1회 · 외부 도구 없음</text>
+  <text x="80" y="78" fill="#f7f4ea" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="44" font-weight="700">네 AI는 몽진의 첫 수로 무엇을 골랐을까요?</text>
+  <text x="80" y="122" fill="#9ba8c7" font-family="Pretendard, Apple SD Gothic Neo, sans-serif" font-size="22">왕을 호위해 반대편 목표로 보내는 9×9 추상전략게임 · 모델당 1회 · 외부 도구 없음</text>
 
   <g transform="translate(80 160)">
     <rect width="630" height="630" rx="12" fill="#d9c9a3"/>

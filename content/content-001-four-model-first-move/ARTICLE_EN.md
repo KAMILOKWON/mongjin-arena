@@ -1,8 +1,13 @@
 # Four AIs Saw Mongjin for the First Time. Would They Choose the Same Opening?
 
-I am turning **Mongjin (蒙塵)**, an abstract strategy game I designed, into a
-reproducible AI testbed. The first participants are Gemini, Codex, Kimi
-K3, and Grok.
+**Mongjin (蒙塵)** is a two-player, perfect-information abstract strategy game I
+designed. Each player escorts a king across a 9×9 board toward the three center
+goal squares on the opposite edge while using guards to build paths, block, and
+capture.
+
+I am turning Mongjin into a reproducible AI testbed. The first participants are
+Gemini, Codex, Kimi K3, and Grok. **Claude is not included because I did not
+subscribe to it due to the project budget.**
 
 ![Four-model Mongjin opening result](assets/result-board.png)
 
@@ -41,5 +46,6 @@ interface reliability; it does not rank general intelligence or Mongjin skill.
 The unanimity creates a better follow-up question: is guard development
 actually strong, or did the way I presented the rules and candidates guide all
 four systems toward the same intuition? Next I will remove the explicit move
-list or test repeated midgame positions, then let the audience choose an agent
-for a complete game against the deterministic Greedy baseline.
+list or test repeated midgame positions. After that, Codex—the most reliable
+automation path in this setup—will play a complete game against the
+deterministic Greedy baseline.

@@ -8,8 +8,11 @@
 - [x] No claim uses “best”, “smartest”, or “benchmark winner”
 - [x] One-sample limitation appears in article and video
 - [x] No hidden chain-of-thought is shown
+- [x] Every derivative briefly explains Mongjin
+- [x] Claude exclusion is attributed to budget and no subscription
+- [x] Korean copy uses polite speech
+- [x] No audience poll or response-dependent CTA remains
 - [x] Git commit permalink is added
 - [ ] Korean master post published
 - [ ] English GitHub note published
 - [ ] X/Threads post published
-- [ ] Viewer poll for the complete-match agent is active
