@@ -11,6 +11,8 @@ content-NNN-short-name/
 ├── SOCIAL.md              Channel-specific derivatives
 ├── VIDEO.md               Shot list and narration
 ├── ASSET_LIST.md          Required and completed assets
+├── PUBLISH_PLAN.md        Channel order, exact procedure, and timing
+├── PUBLISH_LOG.md         Published URLs and 24h/72h metrics
 └── PUBLISH_CHECKLIST.md   Accuracy and release gate
 ```
 

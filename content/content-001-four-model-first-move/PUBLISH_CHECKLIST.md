@@ -13,7 +13,12 @@
 - [x] Korean copy uses polite speech
 - [x] No audience poll or response-dependent CTA remains
 - [x] Result image uses the Studio ZZG site palette
+- [x] X and Threads copy stays within the standard post limits
+- [x] Image alternative text is prepared
 - [x] Git commit permalink is added
 - [ ] Korean master post published
 - [ ] English GitHub note published
-- [ ] X/Threads post published
+- [ ] X thread published and URL recorded
+- [ ] Threads post published and URL recorded
+- [ ] 24-hour metrics recorded
+- [ ] 72-hour metrics recorded
